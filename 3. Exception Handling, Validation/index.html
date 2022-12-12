@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Please input a number between 5 and 10</h3>
+    <input id="demo" type="text" />
+    <button type="button" onclick="testInput()">Test Input</button>
+    <p style="border: 1px solid black; padding: 10px" id="message"></p>
+    <hr />
+
+    <h3>Enter a Number</h3>
+    <!-- <input id="numberBox" type="text" pattern="[A-Za-z]{3}" /> -->
+    <!-- <input id="numberBox" type="text" value="abc" readonly /> -->
+    <input id="numberBox" type="number" min="10" max="45" />
+    <button type="button" onclick="validate()">Send</button>
+    <p style="border: 1px solid black; padding: 10px" id="mesaj"></p>
+    <hr />
+    <script src="script.js"></script>
+  </body>
+</html>
